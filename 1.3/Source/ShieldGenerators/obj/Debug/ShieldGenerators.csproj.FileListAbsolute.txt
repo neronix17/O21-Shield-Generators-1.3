@@ -1,0 +1,4 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\-O21-Shield-Generators\1.1\Assemblies\ShieldGenerators.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\-O21-Shield-Generators\1.1\Source\ShieldGenerators\obj\Debug\ShieldGenerators.csprojAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\-O21-Shield-Generators\1.1\Source\ShieldGenerators\obj\Debug\ShieldGenerators.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\-O21-Shield-Generators\1.1\Source\ShieldGenerators\obj\Debug\ShieldGenerators.csproj.CoreCompileInputs.cache
