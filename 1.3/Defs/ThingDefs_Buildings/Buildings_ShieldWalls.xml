@@ -5,7 +5,7 @@
     <!-- ThingDef ParentName="BuildingBase">
         <defName>O21_Shield_ShieldWall</defName>
         <label>wall (shielded)</label>
-        <description>An impassable repulsor shielded wall. Capable of holding up a roof.</description>
+        <description>An impassable repulsor shielded wall. Cannot support a roof.</description>
         <thingClass>Building</thingClass>
         <category>Building</category>
         <graphicData Inherit="False">
@@ -30,7 +30,7 @@
         <uiIconPath>Things/Building/Linked/WallSmooth_MenuIcon</uiIconPath>
         <costStuffCount>10</costStuffCount>
         <costList Inherit="False">
-            <ComponentSpacer>3</ComponentSpacer>
+            <ComponentSpacer>1</ComponentSpacer>
         </costList>
         <stuffCategories Inherit="False">
             <li>Metallic</li>
@@ -47,7 +47,7 @@
         <castEdgeShadows>true</castEdgeShadows>
         <passability>Impassable</passability>
         <altitudeLayer>Building</altitudeLayer>
-        <holdsRoof>true</holdsRoof>
+        <holdsRoof>false</holdsRoof>
         <designationCategory>Structure</designationCategory>
         <staticSunShadowHeight>1.0</staticSunShadowHeight>
         <blockLight>true</blockLight>
@@ -69,7 +69,7 @@
             <li Class="O21Toolbox.Shield.CompProperties_Shield">
                 <compClass>O21Toolbox.Shield.Comp_ShieldBuilding</compClass>
                 
-                <interceptAirProjectiles>false</interceptAirProjectiles>
+                <interceptAirProjectiles>true</interceptAirProjectiles>
                 <interceptGroundProjectiles>true</interceptGroundProjectiles>
 				<podBlocker>false</podBlocker>
                 <reactivateEffect>BulletShieldGenerator_Reactivate</reactivateEffect>
